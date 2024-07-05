@@ -1,0 +1,245 @@
+@use "../abstracts";
+
+.filter-form {
+  --padding: 30px;
+  --padding-top-bottom: 20px;
+
+  position: relative;
+
+  padding: var(--padding-top-bottom) 0;
+
+  border-radius: 20px;
+
+  background-color: var(--filter-form-bg-color);
+  box-shadow: 0px 40px 90px var(--filter-form-shadow);
+
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity, visibility;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+
+  &--show {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  &__content {
+    padding: 0 var(--padding);
+
+    min-height: 260px;
+    max-height: calc(100vh - 300px);
+
+    overscroll-behavior: contain;
+
+    overflow: scroll;
+
+    @include abstracts.mediaquery(sm) {
+      max-height: calc(100vh - 172px);
+      padding-bottom: 70px;
+    }
+  }
+
+  &__row {
+    display: flex;
+
+    @include abstracts.mediaquery(xl) {
+      flex-direction: column;
+    }
+  }
+
+  &__sub-group {
+    margin-top: 20px;
+
+    width: 100%;
+
+    &--inline {
+      display: flex;
+      column-gap: 30px;
+    }
+  }
+
+  &__row + &__row {
+    margin-top: 20px;
+  }
+
+  &__heading {
+    display: block;
+
+    padding: 0 var(--padding);
+    padding-bottom: 30px;
+
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 145.455%;
+  }
+
+  &__label {
+    margin-bottom: 20px;
+  }
+
+  &__text-input {
+    @include abstracts.mediaquery(xl) {
+      flex: 1;
+    }
+
+    width: 121px;
+
+    & input {
+      width: 100%;
+
+      padding: 8px 12px;
+
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 142.857%;
+
+      border: 1px solid #d2d1d6;
+      border-radius: 6px;
+
+      @include abstracts.mediaquery(xl) {
+        width: 100%;
+      }
+    }
+
+    &::placeholder {
+      color: #9e9da8;
+    }
+
+    &--large {
+      display: flex;
+
+      width: 334px;
+
+      padding: 10px 16px;
+
+      border: 1px solid #d2d1d6;
+      border-radius: 6px;
+    }
+
+    &--large input {
+      padding: 0;
+
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 146.667%;
+
+      border: none;
+      border-radius: 0;
+    }
+
+    &--large button {
+      margin-left: 10px;
+    }
+
+    @include abstracts.mediaquery(xl) {
+      &,
+      &--large {
+        flex: 1;
+        width: 100%;
+      }
+    }
+  }
+
+  &__progress-bar {
+    --left: 10%;
+    --right: 10%;
+
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    height: 2px;
+
+    margin: 30px 0;
+    border-radius: 4px;
+
+    background-color: #d2d1d6;
+
+    & span {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      display: block;
+
+      width: 22px;
+      height: 22px;
+
+      border: 6px solid #ffb700;
+      border-radius: 50%;
+
+      background-color: #fff;
+    }
+
+    &__min {
+      left: var(--left);
+    }
+
+    &__max {
+      right: var(--right);
+    }
+  }
+
+  &__select-group &__separator {
+    margin: 0 4px;
+    @include abstracts.mediaquery(xl) {
+      width: 1px;
+      height: auto;
+    }
+  }
+
+  &__footer {
+    background-color: var(--filter-form-bg-color);
+
+    justify-content: flex-end;
+
+    padding: 0 var(--padding);
+    padding-top: 10px;
+
+    column-gap: 10px;
+
+    @include abstracts.mediaquery(xl) {
+      flex-direction: row;
+    }
+
+    @include abstracts.mediaquery(md) {
+      position: sticky;
+      bottom: 0;
+
+      height: 70px;
+      align-items: center;
+    }
+  }
+
+  &__cancel {
+    height: 38px;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    @include abstracts.mediaquery(sm) {
+      flex: 1;
+    }
+  }
+
+  &__submit {
+    height: 38px;
+
+    color: #1a162e;
+
+    padding: 9px 10px;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 142.857%;
+
+    @include abstracts.mediaquery(sm) {
+      flex: 1;
+    }
+  }
+}

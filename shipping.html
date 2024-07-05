@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" class="darkv">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecommerce</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+  <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- Fonts -->
+  <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/styles/main.css" />
+  <!-- Scripts -->
+  <script src="./src/scripts/loadTemplate.js"></script>
+  <script type="module" src="./src/scripts/layout.js"></script>
+</head>
+
+<body>
+  <!-- I.HEADER -->
+  <header id="header" class="header">
+    <script>
+      load("#header", "./src/layouts/header.txt");
+    </script>
+  </header>
+
+  <!-- II.PRODUCT -->
+  <main id="checkout-page">
+    <div class="container">
+      <!-- Checkout container group -->
+      <div class="checkout-container">
+        <div class="breadcrumb checkout-breadcrumb">
+          <ul class="breadcrumb__menu">
+            <li class="breadcrumb__item">
+              <a href="#" class="breadcrumb__link">
+                <span class="breadcrumb__text">Home</span>
+                <img class="breadcrumb__icon" src="./assets/img/arrow-left.svg" alt="arrow-left" />
+              </a>
+            </li>
+
+            <li class="breadcrumb__item">
+              <a href="#" class="breadcrumb__link">
+                <span class="breadcrumb__text">Checkout</span>
+                <img class="breadcrumb__icon" src="./assets/img/arrow-left.svg" alt="arrow-left" />
+              </a>
+            </li>
+
+            <li class="breadcrumb__item breadcrumb__item--active">
+              <a href="#" class="breadcrumb__link">
+                <span class="breadcrumb__text">Shipping</span>
+                <img class="breadcrumb__icon" src="./assets/img/arrow-left.svg" alt="arrow-left" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Checkout container group -->
+      <div class="checkout-container">
+        <div class="cart">
+          <div class="row gy-xl-3">
+            <!-- Cart Left Column -->
+            <div class="col-8 col-xl-12">
+              <div class="cart__wrap">
+                <div class="cart__top">
+                  <h1 class="cart__heading">1. Shipping, arrives between Mon, May 16—Tue, May 24</h1>
+                </div>
+                <span class="cart__separator cart__separator--horizontal"></span>
+
+                <div class="user-address">
+                  <div class="user-address__top">
+                    <div>
+                      <h2 class="user-address__heading">Shipping address</h2>
+                      <p class="user-address__desc">Where should we deliver your order?</p>
+                    </div>
+                    <div>
+                      <button class="pri-btn user-address__btn">
+                        <span class="user-address__icon">
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.9996 7.32715V14.6535" stroke="#1A162E" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M14.6663 10.9904H7.33301" stroke="#1A162E" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M15.6857 1H6.31429C3.04762 1 1 3.31208 1 6.58516V15.4148C1 18.6879 3.0381 21 6.31429 21H15.6857C18.9619 21 21 18.6879 21 15.4148V6.58516C21 3.31208 18.9619 1 15.6857 1Z"
+                              stroke="#1A162E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        Add a new address
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-row">
+                    <article class="address-card">
+                      <div class="address-card__left">
+                        <div class="address-card__checkbox">
+                          <label>
+                            <input type="checkbox" name="address" checked hidden class="address-card__checkbox-input" />
+                            <div class="checkbox-custom">
+                              <span class="checkbox-custom__check"></span>
+                            </div>
+                          </label>
+                        </div>
+
+                        <div class="address-card__content">
+                          <h3 class="address-card__username">Imran Khan</h3>
+
+                          <p class="address-card__place">Museum of Rajas, Sylhet Sadar, Sylhet 3100.</p>
+
+                          <ul class="address-card__menu">
+                            <li class="address-card__item">Shipping</li>
+                            <li class="address-card__item">Delivery from store</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="address-card__act">
+                        <button class="address-card__edit-btn">
+                          <span class="address-card__icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M11.7471 18.4428H18.9997" stroke="currentcolor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.78 1.79479C11.5557 0.867787 12.95 0.731856 13.8962 1.49173C13.9485 1.53296 15.6295 2.83879 15.6295 2.83879C16.669 3.46719 16.992 4.80311 16.3494 5.82259C16.3153 5.87718 6.81195 17.7645 6.81195 17.7645C6.49578 18.1589 6.01583 18.3918 5.50291 18.3973L1.86353 18.443L1.04353 14.9723C0.928662 14.4843 1.04353 13.9718 1.3597 13.5773L10.78 1.79479Z"
+                                stroke="currentcolor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path d="M9.02051 4.00098L14.4728 8.1881" stroke="currentcolor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                          </span>
+                          Edit
+                        </button>
+                      </div>
+                    </article>
+
+                    <article class="address-card">
+                      <div class="address-card__checkbox">
+                        <label>
+                          <input type="checkbox" name="address" hidden class="address-card__checkbox-input" />
+                          <div class="checkbox-custom">
+                            <span class="checkbox-custom__check"></span>
+                          </div>
+                        </label>
+                      </div>
+
+                      <div class="address-card__content">
+                        <h3 class="address-card__username">Imran Khan</h3>
+
+                        <p class="address-card__place">
+                          Al Hamra City (10th Floor), Hazrat Shahjalal Road, Sylhet, Sylhet, Bangladesh Al Hamra City
+                        </p>
+
+                        <ul class="address-card__menu">
+                          <li class="address-card__item">Shipping</li>
+                          <li class="address-card__item">Delivery from store</li>
+                        </ul>
+                      </div>
+
+                      <div class="address-card__act">
+                        <button class="address-card__edit-btn">
+                          <span class="address-card__icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M11.7471 18.4428H18.9997" stroke="currentcolor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.78 1.79479C11.5557 0.867787 12.95 0.731856 13.8962 1.49173C13.9485 1.53296 15.6295 2.83879 15.6295 2.83879C16.669 3.46719 16.992 4.80311 16.3494 5.82259C16.3153 5.87718 6.81195 17.7645 6.81195 17.7645C6.49578 18.1589 6.01583 18.3918 5.50291 18.3973L1.86353 18.443L1.04353 14.9723C0.928662 14.4843 1.04353 13.9718 1.3597 13.5773L10.78 1.79479Z"
+                                stroke="currentcolor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path d="M9.02051 4.00098L14.4728 8.1881" stroke="currentcolor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                          </span>
+                          Edit
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="cart__menu">
+                  <h2 class="cart__sub-heading">Items details</h2>
+                  <article class="cart-item">
+                    <!-- Cart Media -->
+                    <div class="cart-item__media">
+                      <img src="./assets/img/product-cards/big-card-01.png" alt="coffe" />
+                    </div>
+
+                    <!-- Cart Infor -->
+                    <div class="cart-item__infor">
+                      <!-- Cart Infor Left -->
+                      <div class="cart-item__infor-left">
+                        <h3 class="cart-item__title">Coffee Beans - Espresso Arabica and Robusta Beans</h3>
+                        <div class="cart-item__row">
+                          <span class="cart-item__price">$47.00</span>
+                          <span class="cart__separator cart__separator--vertical"></span>
+                          <span class="cart-item__status">In Stock</span>
+                        </div>
+
+                        <div class="cart-item__ctrls">
+                          <div class="cart-item__ctrls__group">
+                            <div class="cart-item__ctrl">
+                              <div class="form__select-inner select-wrap">
+                                <div class="form__select-real">
+                                  <select class="real-select" name="brand" id="brand">
+                                    <option value="LavAzza">LavAzza</option>
+                                    <option value="Lazada">Lazada</option>
+                                    <option value="Shoppe">Shoppe</option>
+                                  </select>
+                                </div>
+
+                                <div class="fake-select select-custom cart-item__select-custom" style="--width: 100px">
+                                  <div class="select-custom__selected select-label">
+                                    <span
+                                      class="select-custom__label cart-item__select-label select-label-text">LavAzza</span>
+                                    <div class="select-custom__arrow-icon select-icon">
+                                      <svg width="16" height="9" viewBox="0 0 16 9" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 1L8 8L1 1" stroke="currentcolor" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                    </div>
+                                  </div>
+                                  <div class="select-custom__content">
+                                    <ul class="select-custom__menu select-menu">
+                                      <li>LavAzza</li>
+                                      <li>Lazada</li>
+                                      <li>Shoppe</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="cart-item__ctrl cart-item__ctrl--center">
+                              <button class="cart-item__ctrl__btn">
+                                <span class="cart-item__ctrl__icon">
+                                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.6663 10.9904H7.33301" stroke="currentcolor" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M15.6857 1H6.31429C3.04762 1 1 3.31208 1 6.58516V15.4148C1 18.6879 3.0381 21 6.31429 21H15.6857C18.9619 21 21 18.6879 21 15.4148V6.58516C21 3.31208 18.9619 1 15.6857 1Z"
+                                      stroke="currentcolor" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round" />
+                                  </svg>
+                                </span>
+                              </button>
+
+                              <span class="cart-item__ctrl__quantity">1</span>
+
+                              <button class="cart-item__ctrl__btn">
+                                <span class="cart-item__ctrl__icon">
+                                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.9996 7.32715V14.6535" stroke="currentcolor" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M14.6663 10.9904H7.33301" stroke="currentcolor" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M15.6857 1H6.31429C3.04762 1 1 3.31208 1 6.58516V15.4148C1 18.6879 3.0381 21 6.31429 21H15.6857C18.9619 21 21 18.6879 21 15.4148V6.58516C21 3.31208 18.9619 1 15.6857 1Z"
+                                      stroke="currentcolor" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round" />
+                                  </svg>
+                                </span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Cart Infor Right -->
+                      <div class="cart-item__infor-right">
+                        <span class="cart-item__total-price">$47.00</span>
+                        <div class="cart-item__ctrls cart-item__ctrls--md-inline pull-bottom">
+                          <div class="cart-item__ctrls__group cart-item__ctrls__group--md-inline">
+                            <div class="cart-item__ctrl cart-item__ctrl--no-border cart-item__ctrl--no-padding">
+                              <button class="cart-item__ctrl__btn">
+                                <span class="cart-item__ctrl__icon">
+                                  <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M1.87187 9.59832C0.798865 6.24832 2.05287 2.41932 5.56987 1.28632C7.41987 0.689322 9.46187 1.04132 10.9999 2.19832C12.4549 1.07332 14.5719 0.693322 16.4199 1.28632C19.9369 2.41932 21.1989 6.24832 20.1269 9.59832C18.4569 14.9083 10.9999 18.9983 10.9999 18.9983C10.9999 18.9983 3.59787 14.9703 1.87187 9.59832Z"
+                                      stroke="currentcolor" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round" />
+                                    <path d="M15 4.69995C16.07 5.04595 16.826 6.00095 16.917 7.12195"
+                                      stroke="currentcolor" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round" />
+                                  </svg>
+                                </span>
+                                Save
+                              </button>
+                            </div>
+
+                            <div class="cart-item__ctrl cart-item__ctrl--no-border cart-item__ctrl--no-padding">
+                              <button class="cart-item__ctrl__btn">
+                                <span class="cart-item__ctrl__icon">
+                                  <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                      d="M16.3248 7.46875C16.3248 7.46875 15.7818 14.2037 15.4668 17.0407C15.3168 18.3957 14.4798 19.1898 13.1088 19.2148C10.4998 19.2618 7.88779 19.2648 5.27979 19.2098C3.96079 19.1828 3.13779 18.3788 2.99079 17.0478C2.67379 14.1858 2.13379 7.46875 2.13379 7.46875"
+                                      stroke="currentcolor" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round" />
+                                    <path d="M17.708 4.24023H0.75" stroke="currentcolor" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                      d="M14.4406 4.23998C13.6556 4.23998 12.9796 3.68498 12.8256 2.91598L12.5826 1.69998C12.4326 1.13898 11.9246 0.750977 11.3456 0.750977H7.11258C6.53358 0.750977 6.02558 1.13898 5.87558 1.69998L5.63258 2.91598C5.47858 3.68498 4.80258 4.23998 4.01758 4.23998"
+                                      stroke="currentcolor" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round" />
+                                  </svg>
+                                </span>
+                                Delete
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <span class="cart__separator cart__separator--horizontal"></span>
+                </div>
+
+                <div class="cart__bottom d-md-none">
+                  <div class="row">
+                    <div class="col-8 col-xxl-7">
+                      <div class="cart__link">
+                        <a href="/" class="cart__backToShop">
+                          <span class="cart__icon">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M8.5 15L1.5 8L8.5 1" stroke="currentcolor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                          </span>
+                          Continue Shopping
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-4 col-xxl-5">
+                      <div class="cart-group">
+                        <div class="cart-sub-group" style="--mt: 10px">
+                          <span class="cart-sub-group__label"> Subtotal </span>
+
+                          <span class="cart-sub-group__value pull-right"> $191.65 </span>
+                        </div>
+
+                        <div class="cart-sub-group" style="--mt: 10px">
+                          <span class="cart-sub-group__label"> Shipping </span>
+
+                          <span class="cart-sub-group__value pull-right"> $10.00 </span>
+                        </div>
+
+                        <span class="cart__separator cart__separator--horizontal"></span>
+
+                        <div class="cart-sub-group" style="--mt: 10px">
+                          <span class="cart-sub-group__label cart-sub-group__label--bold cart-sub-group__label--big">
+                            Total:
+                          </span>
+
+                          <span
+                            class="cart-sub-group__value cart-sub-group__value--big cart-sub-group__value--bold pull-right">
+                            $201.65
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cart Right Column -->
+            <div class="col-4 col-xl-12">
+              <div class="cart__wrap">
+                <div class="cart-group">
+                  <div class="cart-sub-group" style="--mt: 14px">
+                    <span class="cart-sub-group__label cart-sub-group__label--default"> Subtotal (items) </span>
+
+                    <span
+                      class="cart-sub-group__value cart-sub-group__value--default cart-sub-group__value--bold pull-right">
+                      3
+                    </span>
+                  </div>
+
+                  <div class="cart-sub-group" style="--mt: 14px">
+                    <span class="cart-sub-group__label cart-sub-group__label--default"> Price (Total) </span>
+
+                    <span
+                      class="cart-sub-group__value cart-sub-group__value--default cart-sub-group__value--bold pull-right">
+                      $191.65
+                    </span>
+                  </div>
+
+                  <div class="cart-sub-group" style="--mt: 14px">
+                    <span class="cart-sub-group__label cart-sub-group__label--default"> Shipping </span>
+
+                    <span
+                      class="cart-sub-group__value cart-sub-group__value--default cart-sub-group__value--bold pull-right">
+                      $10.00
+                    </span>
+                  </div>
+
+                  <span class="cart__separator cart__separator--horizontal"></span>
+
+                  <div class="cart-sub-group" style="--mt: 14px">
+                    <span class="cart-sub-group__label cart-sub-group__label--default"> Estimated Total </span>
+
+                    <span
+                      class="cart-sub-group__value cart-sub-group__value--default cart-sub-group__value--bold pull-right">
+                      $201.65
+                    </span>
+                  </div>
+                </div>
+
+                <div class="cart__checkout-btn cart__checkout-btn--fluid">
+                  <a class="pri-btn" href="#">Continue to checkout</a>
+                </div>
+              </div>
+
+              <div class="cart__wrap">
+                <div class="cart-gift">
+                  <div class="cart-gift__image">
+                    <img src="./assets/img/gift.svg" alt="gift" />
+                  </div>
+
+                  <div class="cart-gift__infor">
+                    <h3 class="cart-gift__title">Send this order as a gift.</h3>
+                    <h3 class="cart-gift__desc">Available items will be shipped to your gift recipient.</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

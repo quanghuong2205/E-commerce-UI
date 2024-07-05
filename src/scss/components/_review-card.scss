@@ -1,0 +1,111 @@
+@use "../abstracts";
+
+.review-card {
+  background-color: var(--review-card-bg-color);
+  padding: 30px;
+  border-radius: 16px;
+
+  @include abstracts.mediaquery(md) {
+    padding: 20px;
+  }
+
+  &__wrap {
+    // flex-wrap: nowrap;
+    // overflow: hidden;
+  }
+
+  &__row {
+    display: flex;
+
+    @include abstracts.mediaquery(xl) {
+      flex-direction: column;
+    }
+  }
+
+  &__top {
+    column-gap: 20px;
+
+    @include abstracts.mediaquery(xl) {
+      row-gap: 20px;
+      align-items: center;
+      text-align: center;
+    }
+
+    @include abstracts.mediaquery(md) {
+      flex-direction: row;
+      row-gap: 0;
+      align-items: initial;
+      text-align: left;
+    }
+  }
+
+  &__avatar {
+    width: 80px;
+    height: 80px;
+
+    flex-shrink: 0;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  &__title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 145.455%;
+    margin-bottom: 10px;
+
+    @include abstracts.mediaquery(md) {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__content {
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  &__rating {
+    display: flex;
+    column-gap: 20px;
+
+    margin-top: 20px;
+
+    @include abstracts.mediaquery(xl) {
+      flex-direction: column;
+      row-gap: 8px;
+      align-items: center;
+      text-align: center;
+    }
+
+    @include abstracts.mediaquery(md) {
+      flex-direction: row;
+      row-gap: 0;
+      align-items: initial;
+    }
+
+    &__icons {
+      display: flex;
+      column-gap: 8px;
+    }
+
+    &__icon {
+      width: 24px;
+      height: 24px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__text {
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 144.444%;
+    }
+  }
+}

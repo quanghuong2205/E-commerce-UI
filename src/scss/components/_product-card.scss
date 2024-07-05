@@ -1,0 +1,65 @@
+@use "../abstracts";
+
+.product-card {
+  --gap: 16px;
+  padding: 16px;
+  border-radius: 20px;
+
+  height: 100%;
+
+  background-color: var(--product-card-bg-color);
+  box-shadow: 0px 20px 60px 10px var(--product-card-shadow);
+
+  &__media {
+    position: relative;
+
+    height: 0;
+    width: 100%;
+    margin-bottom: var(--gap);
+
+    padding-top: 100%;
+
+    background-color: var(--product-card-bg-color);
+  }
+
+  &__image {
+    position: absolute;
+    inset: 0;
+
+    @include abstracts.fit-frame();
+
+    object-fit: contain;
+  }
+
+  &__infor {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--gap);
+  }
+
+  &__title,
+  &__price,
+  &__score {
+    font-weight: 500;
+    line-height: 150%;
+  }
+
+  &__brand {
+    color: #9e9da8;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 146.667%;
+  }
+
+  &__footer,
+  &__rating {
+    display: flex;
+  }
+
+  &__rating {
+    column-gap: 6px;
+
+    margin-left: auto;
+  }
+}

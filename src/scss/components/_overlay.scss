@@ -1,0 +1,18 @@
+@use "../abstracts";
+#overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+
+  opacity: 0;
+  visibility: hidden;
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  transition: opacity 0.3s linear;
+  pointer-events: none;
+
+  @include abstracts.mediaquery(lg) {
+    visibility: visible;
+  }
+}

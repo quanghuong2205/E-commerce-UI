@@ -1,0 +1,41 @@
+.cart-item-mini {
+  &__media {
+    position: relative;
+
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+
+    border: 1px solid var(--cart-item-mini-media-border-color);
+
+    background-color: var(--cart-item-mini-media-bg-color);
+    border-radius: 10px;
+
+    & img {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__infor {
+    margin-top: 14px;
+  }
+
+  &__title {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 142.857%;
+    margin-bottom: 6px;
+  }
+
+  &__price {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 146.667%;
+  }
+}

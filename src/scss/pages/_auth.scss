@@ -1,0 +1,180 @@
+@use "../abstracts";
+
+.auth {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  min-height: 100vh;
+
+  @supports (-webkit-touch-callout: none) {
+    min-height: -webkit-fill-available;
+  }
+
+  @include abstracts.mediaquery(md) {
+    grid-template-columns: 1fr;
+  }
+
+  &-left {
+    background-color: var(--auth-form-left-bg-color);
+
+    padding: 0 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__logo {
+      position: absolute;
+      top: 80px;
+      left: 50%;
+      translate: -50%;
+    }
+
+    &__inner {
+      position: relative;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      width: min(424px, 100%);
+      height: 100%;
+    }
+
+    &__media {
+      width: 100%;
+      & img {
+        @include abstracts.fit-frame();
+      }
+    }
+
+    &__desc {
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 144.444%;
+      color: #b9babe;
+
+      margin-top: 50px;
+
+      @include abstracts.mediaquery(md) {
+        font-size: 1.5rem;
+      }
+    }
+
+    &__next-btn {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      translate: -50%;
+    }
+  }
+
+  &-right {
+    @include abstracts.flex($h-center: true);
+    text-align: center;
+
+    background-color: var(--auth-form-right-bg-color);
+
+    transition: translate 0.3s linear;
+
+    @include abstracts.mediaquery(md) {
+      position: fixed;
+      inset: 0;
+
+      align-items: flex-start;
+
+      translate: 100%;
+
+      &--active,
+      &--no-translate {
+        translate: 0;
+      }
+    }
+
+    &__inner {
+      width: min(460px, 100%);
+
+      padding: 50px 30px;
+
+      @include abstracts.mediaquery(md) {
+        padding: 30px;
+      }
+    }
+
+    &__heading {
+      text-align: center;
+      font-style: normal;
+      font-size: 3rem;
+      font-weight: 500;
+      line-height: 146.667%;
+
+      color: var(--auth-form-heading-color);
+
+      margin: 40px 0 10px 0;
+
+      @include abstracts.mediaquery(md) {
+        font-size: 2.2rem;
+      }
+    }
+
+    &__desc {
+      color: #9e9da8;
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 146.667%;
+
+      padding: 0 20px;
+
+      @include abstracts.mediaquery(md) {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  &-form {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+
+    @include abstracts.mediaquery(md) {
+      margin-top: 20px;
+      row-gap: 20px;
+    }
+
+    &__btn-group {
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+
+      @include abstracts.mediaquery(md) {
+        margin-top: 20px;
+        row-gap: 20px;
+      }
+    }
+
+    &__footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      column-gap: 10px;
+
+      margin-top: 50px;
+
+      @include abstracts.mediaquery(md) {
+        margin-top: 20px;
+      }
+
+      .auth-form__link {
+        font-size: 1.8rem;
+
+        @include abstracts.mediaquery(md) {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}

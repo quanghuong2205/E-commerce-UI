@@ -1,0 +1,45 @@
+@use "../abstracts";
+
+.breadcrumb {
+  padding: 20px;
+  background-color: var(--breadcrumb-bg-color);
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px 10px var(--breadcrumb-shadow);
+
+  @include abstracts.mediaquery(md) {
+    border-radius: 20px;
+  }
+
+  &__menu,
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  &__link {
+    column-gap: 8px;
+  }
+
+  &__item--active &__icon {
+    display: none;
+  }
+
+  &__item--active &__text {
+    color: var(--breadcrumb-text-color-active);
+  }
+
+  &__text {
+    color: #9e9da8;
+    font-weight: 500;
+    line-height: 150%;
+  }
+
+  &__icon {
+    padding: 5px 7px;
+  }
+}

@@ -1,0 +1,107 @@
+@use "../abstracts";
+
+.address-card {
+  display: flex;
+
+  margin-top: 30px;
+
+  color: var(--checkout-cart-text-color);
+
+  @include abstracts.mediaquery(md) {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  &__left {
+    display: flex;
+    column-gap: 16px;
+  }
+
+  &__checkbox {
+    margin-top: 6px;
+
+    &:has(input:checked) {
+      & .checkbox-custom {
+        border: none;
+        background-color: #67b044;
+      }
+
+      & .checkbox-custom__check {
+        display: block;
+      }
+    }
+  }
+
+  &__content {
+    max-width: 600px;
+
+    @include abstracts.mediaquery(md) {
+      max-width: 100%;
+    }
+  }
+
+  &__username {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 144.444%;
+  }
+
+  &__place {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 146.667%;
+    margin-top: 4px;
+  }
+
+  &__menu {
+    margin-top: 20px;
+
+    list-style-type: disc;
+    display: flex;
+    column-gap: 30px;
+
+    @include abstracts.mediaquery(md) {
+      margin-top: 16px;
+    }
+  }
+
+  &__item {
+    list-style-type: disc;
+
+    margin-left: 16px;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 142.857%;
+  }
+
+  &__act {
+    margin-left: auto;
+
+    display: flex;
+    align-items: flex-end;
+
+    @include abstracts.mediaquery(md) {
+      margin-left: 0;
+    }
+  }
+
+  &__edit-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 144.444%;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

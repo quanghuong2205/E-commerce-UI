@@ -1,0 +1,95 @@
+@use "../abstracts";
+
+.slider {
+  position: relative;
+
+  overflow: hidden;
+
+  &__menu {
+    display: flex;
+  }
+
+  &__item {
+    position: relative;
+    flex-shrink: 0;
+
+    height: 0;
+    width: 100%;
+
+    padding-top: 34%;
+
+    border-radius: 20px;
+    background: #77dae6;
+    overflow: hidden;
+
+    @include abstracts.mediaquery(md) {
+      padding-top: 48%;
+    }
+  }
+
+  &__media {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+
+    & img {
+      @include abstracts.fit-frame();
+    }
+  }
+
+  &-page {
+    @include abstracts.flex($v-center: true);
+    column-gap: 20px;
+
+    position: absolute;
+    bottom: 15%;
+    left: 5.2%;
+
+    &__index {
+      color: #fff;
+
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 144.444%;
+    }
+
+    &__decor {
+      position: relative;
+
+      display: block;
+
+      width: 176px;
+      height: 4px;
+
+      background-color: #fff;
+
+      @include abstracts.mediaquery(md) {
+        width: 72px;
+      }
+    }
+
+    &__decor::before,
+    &__decor::after {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      display: block;
+      content: "";
+
+      width: 6px;
+      height: 6px;
+
+      border-radius: 50%;
+      border: 4px solid #fff;
+    }
+
+    &__decor::before {
+      left: -12px;
+    }
+
+    &__decor::after {
+      right: -12px;
+    }
+  }
+}

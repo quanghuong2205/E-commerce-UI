@@ -1,0 +1,69 @@
+@use "../abstracts";
+
+.category-s-card {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+
+  height: 100%;
+
+  padding: 20px;
+  border-radius: 16px;
+
+  background-color: var(--cat-s-card-bg-color);
+
+  @include abstracts.mediaquery(xl) {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  @include abstracts.mediaquery(md) {
+    flex-direction: row;
+    row-gap: 0;
+
+    background-color: var(--cat-s-card-bg-color);
+  }
+
+  &__thumb {
+    width: 116px;
+    height: 116px;
+
+    background-color: var(--cat-s-card-thumb-bg-color);
+    border-radius: 8px;
+
+    @include abstracts.mediaquery(xl) {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+    }
+
+    @include abstracts.mediaquery(md) {
+      width: 88px;
+      height: 88px;
+    }
+  }
+
+  &__price {
+    color: var(--cat-s-card-heading-color);
+
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 145.455%;
+
+    margin-bottom: 6px;
+
+    @include abstracts.mediaquery(md) {
+      font-size: 18px;
+    }
+  }
+
+  &__desc {
+    font-weight: 400;
+    line-height: 150%;
+
+    @include abstracts.mediaquery(md) {
+      font-size: 14px;
+      line-height: 142.857%;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.checkbox-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 18px;
+  height: 18px;
+
+  border: 1px solid var(--checkbox-border-color);
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  &__check {
+    display: block;
+
+    width: 9px;
+    height: 5.2px;
+
+    margin-top: -3px;
+
+    border: 2px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+    border-radius: 1px;
+
+    display: none;
+  }
+
+  &--checked {
+    background-color: #67b044;
+  }
+
+  &--checked &__check {
+    display: block;
+  }
+}

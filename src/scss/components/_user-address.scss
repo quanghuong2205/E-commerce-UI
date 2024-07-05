@@ -1,0 +1,51 @@
+@use "../abstracts";
+.user-address {
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+
+    color: var(--checkout-cart-text-color);
+
+    @include abstracts.mediaquery(md) {
+      flex-direction: column;
+      align-items: flex-start;
+
+      row-gap: 16px;
+    }
+  }
+
+  &__heading {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 144.444%;
+
+    @include abstracts.mediaquery(md) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &__desc {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 146.667%;
+
+    margin-top: 4px;
+  }
+
+  &__btn {
+    border-radius: 30px;
+    color: #1a162e;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+$breakPoints: (
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$display_mode: block, flex, grid, none;
+
+@mixin generate_display($label: null) {
+  $prefix: if($label, "-#{$label}", "");
+  @each $mode in $display_mode {
+    .d#{$prefix}-#{$mode} {
+      display: $mode !important;
+    }
+  }
+}
+
+@include generate_display();
+
+@each $label, $dimension in $breakPoints {
+  @media (max-width: ($dimension - 0.02)) {
+    @include generate_display($label);
+  }
+}

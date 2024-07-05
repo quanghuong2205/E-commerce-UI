@@ -1,0 +1,1834 @@
+<div class="container">
+  <div class="header__inner">
+    <!-- Res.Mobile menu -->
+    <button
+      class="mobile-menu d-none d-lg-block toggle"
+      data-toggle-targets="#navbar"
+      data-toggle-classes="nav--active">
+      <img class="icon" src="./assets/img/mobile-menu.svg" alt="" />
+    </button>
+
+    <!-- 1.Logo -->
+    <div class="header__logo">
+      <a class="logo__link" href="/">
+        <div class="logo__media">
+          <img src="./assets/img/logo.svg" alt="" />
+        </div>
+        <p class="logo__text">grocerymart</p>
+      </a>
+    </div>
+
+    <!-- 2.Navbar -->
+    <nav class="header__nav" id="navbar">
+      <div
+        class="nav-back-btn toggle d-none d-lg-block"
+        data-toggle-targets="#navbar"
+        data-toggle-classes="nav--active">
+        <img class="icon" src="./assets/img/arrow.svg" alt="arrow left" />
+      </div>
+
+      <ul class="nav-menu nav-with-dropdown">
+        <!-- 2.1.Nav item -->
+        <li class="nav-item">
+          <a href="#!" class="nav-link">
+            Department
+            <img class="icon nav-icon" src="./assets/img/arrow-down.svg" alt="arrow-down" />
+          </a>
+
+          <!-- Dropdown -->
+          <div class="dropdown">
+            <span class="dropdown-decor arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="17" viewBox="0 0 23 17" fill="currentcolor">
+                <path
+                  d="M9.45277 1.1122C10.253 0.0530214 11.8441 0.0530201 12.6443 1.1122L21.6591 13.0444C22.6545 14.362 21.7147 16.25 20.0633 16.25H2.03375C0.382421 16.25 -0.557459 14.362 0.437972 13.0444L9.45277 1.1122Z"
+                  fill="currentcolor" />
+              </svg>
+            </span>
+
+            <!-- Dropdown Category Column -->
+            <div class="dropdown__category category">
+              <div class="category__inner">
+                <!-- 2.2.1.1.Category Title -->
+                <div class="category__title">
+                  <div class="category__icon">
+                    <img src="./assets/img/cat-icon/star.svg" alt="circle" />
+                    <img class="icon" src="./assets/img/cat-icon/video.svg" alt="cetegory" />
+                  </div>
+                  <h2 class="category__text">All Departments</h2>
+                </div>
+
+                <!-- Category Menu -->
+                <div class="category-menu">
+                  <ul class="cat-menu">
+                    <!--Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Savings & Featured Shop
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                      <!-- 1.Sub Category -->
+                      <div class="sub-category category">
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/square.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/video.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Savings</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Savings </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop All Computers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Laptops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Rollbacks </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/triangle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/smartphone.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Cell Phones</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Wireless Deals </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> 5G Phones </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop All Computers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Laptops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/polygon.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/arrow.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Computers</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop All Computers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Laptops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Monitors </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Chromebook </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Printers & Ink </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Computer Accessories </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Chromebook </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Printers & Ink </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Computer Accessories </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Cases & Screen Protectors</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Laptops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Monitors </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/triangle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/video.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">TV & Video</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop all TVs </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> TVs by Size </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Smart TVs </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Rollbacks </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/polygon.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/smartphone.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Wearable Technology</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Fitness Trackers </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Rollbacks </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Virtual Reality </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Headphones </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Electronic
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                      <div class="sub-category category">
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/polygon.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/arrow.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Savings</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Rollbacks </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/circle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/category.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Cell Phones</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Wireless Deals </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> 5G Phones </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/circle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/video.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Wearable Technology</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Galaxy Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Fitness Trackers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Virtual Reality </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Headphones </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/square.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/smartphone.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Computers</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop All Computers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Laptops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Monitors </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Chromebook </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Printers & Ink </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Computer Accessories </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Clothing, Shoes & Accessories
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Home, Furniture & Appliances
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Toys & Video Games
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Home Improvement
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Baby
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Household Essentials
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Personal Care
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Patio & Garden
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Sports & Outdoors
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Gift Cards
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Auto, Tires and Industrial
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Movies, Music & Books
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a href="#!" class="nav-link">
+            Grocery
+            <img class="icon nav-icon" src="./assets/img/arrow-down.svg" alt="arrow-down" />
+          </a>
+
+          <!-- Dropdown -->
+          <div class="dropdown">
+            <span class="dropdown-decor arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="17" viewBox="0 0 23 17" fill="currentcolor">
+                <path
+                  d="M9.45277 1.1122C10.253 0.0530214 11.8441 0.0530201 12.6443 1.1122L21.6591 13.0444C22.6545 14.362 21.7147 16.25 20.0633 16.25H2.03375C0.382421 16.25 -0.557459 14.362 0.437972 13.0444L9.45277 1.1122Z"
+                  fill="currentcolor" />
+              </svg>
+            </span>
+
+            <!-- Dropdown Category Column -->
+            <div class="dropdown__category category">
+              <div class="category__inner">
+                <!-- 2.2.1.1.Category Title -->
+                <div class="category__title">
+                  <div class="category__icon">
+                    <img src="./assets/img/cat-icon/star.svg" alt="circle" />
+                    <img class="icon" src="./assets/img/cat-icon/video.svg" alt="cetegory" />
+                  </div>
+                  <h2 class="category__text">All Groceries</h2>
+                </div>
+
+                <!-- Category Menu -->
+                <div class="category-menu">
+                  <ul class="cat-menu">
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Savings & Featured Shop
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                      <!-- 1.Sub Category -->
+                      <div class="sub-category category">
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/triangle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/video.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">TV & Video</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop all TVs </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> TVs by Size </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> TV Mounts & Accessories </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> DVD & Blu-Ray Players </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Streaming </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/polygon.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/smartphone.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Wearable Technology</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Fitness Trackers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Virtual Reality </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Headphones </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop all TVs </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Desktops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Computer Software </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/triangle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/video.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Savings</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Streaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Rollbacks </a>
+                                </li>
+                                 <li>
+                                  <a href="#!" class="category-menu__link"> Wireless Deals </a>
+                                </li>
+                                 <li>
+                                  <a href="#!" class="category-menu__link"> Refurbished Phones </a>
+                                </li>
+                                 <li>
+                                  <a href="#!" class="category-menu__link"> Desktops </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/polygon.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/smartphone.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Cell Phones</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Wireless Deals </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> 5G Phones </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/elip.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/arrow.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Computers</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop All Computers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Laptops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Monitors </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Chromebook </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Printers & Ink </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Computer Accessories </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Cases & Screen Protectors</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> TV Mounts & Accessories </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Smart TVs </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Walmart Protection Plan </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Wireless Deals </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> TVs by Size </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Electronic
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                      <div class="sub-category category">
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/polygon.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/arrow.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Savings</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Rollbacks </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/circle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/category.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Cell Phones</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Wireless Deals </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> 5G Phones </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/circle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/video.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Wearable Technology</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Galaxy Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Fitness Trackers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Virtual Reality </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Headphones </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/square.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/smartphone.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Computers</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop All Computers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Laptops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Monitors </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Chromebook </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Printers & Ink </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Computer Accessories </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Toys & Video Games
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Clothing, Shoes & Accessories
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Home Improvement
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Patio & Garden
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Baby
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Home, Furniture & Appliances
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Personal Care
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Household Essentials
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Sports & Outdoors
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Auto, Tires and Industrial
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Gift Cards
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Movies, Music & Books
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a href="#!" class="nav-link">
+            Beauty
+            <img class="icon nav-icon" src="./assets/img/arrow-down.svg" alt="arrow-down" />
+          </a>
+
+          <!-- Dropdown -->
+          <div class="dropdown">
+            <span class="dropdown-decor arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="17" viewBox="0 0 23 17" fill="currentcolor">
+                <path
+                  d="M9.45277 1.1122C10.253 0.0530214 11.8441 0.0530201 12.6443 1.1122L21.6591 13.0444C22.6545 14.362 21.7147 16.25 20.0633 16.25H2.03375C0.382421 16.25 -0.557459 14.362 0.437972 13.0444L9.45277 1.1122Z"
+                  fill="currentcolor" />
+              </svg>
+            </span>
+
+            <!-- Dropdown Category Column -->
+            <div class="dropdown__category category">
+              <div class="category__inner">
+                <!-- 2.2.1.1.Category Title -->
+                <div class="category__title">
+                  <div class="category__icon">
+                    <img src="./assets/img/cat-icon/star.svg" alt="circle" />
+                    <img class="icon" src="./assets/img/cat-icon/video.svg" alt="cetegory" />
+                  </div>
+                  <h2 class="category__text">All Beauties</h2>
+                </div>
+
+                <!-- Category Menu -->
+                <div class="category-menu">
+                  <ul class="cat-menu">
+                    <!--Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Savings & Featured Shop
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                      <!-- 1.Sub Category -->
+                      <div class="sub-category category">
+
+                      <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/elip.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/arrow.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Computers</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop All Computers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Laptops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Monitors </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Chromebook </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Printers & Ink </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Computer Accessories </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Fitness Trackers </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Rollbacks </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Virtual Reality </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Chromebook </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Printers & Ink </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/triangle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/video.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">TV & Video</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop all TVs </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Computer Accessories </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Fitness Trackers </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> TVs by Size </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Smart TVs </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/polygon.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/smartphone.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Wearable Technology</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Fitness Trackers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Virtual Reality </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop all TVs </a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Headphones </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/elip.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/video.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Savings</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Savings </a>
+                                </li>
+                                 <li>
+                                  <a href="#!" class="category-menu__link"> Wireless Deals </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> 5G Phones </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Rollbacks </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/triangle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/smartphone.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Cell Phones</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Wireless Deals </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> 5G Phones </a>
+                                </li>
+                                 <li>
+                                  <a href="#!" class="category-menu__link"> Fitness Trackers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Virtual Reality </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop all TVs </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Electronic
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                      <div class="sub-category category">
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/polygon.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/arrow.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Savings</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Overstock Savings </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Tech Rollbacks </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/circle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/category.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Cell Phones</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Wireless Deals </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> 5G Phones </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/circle.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/video.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Wearable Technology</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Galaxy Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Apple Watch </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Fitness Trackers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Virtual Reality </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Headphones </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 2.Sub Category Group -->
+                        <div class="sub-category__group">
+                          <!-- 2.Sub Category Entity -->
+                          <div class="sub-category__entity">
+                            <!-- 2.1.Sub Category Title -->
+                            <div class="category__title">
+                              <div class="category__icon">
+                                <img src="./assets/img/cat-icon/square.svg" alt="circle" />
+                                <img class="icon" src="./assets/img/cat-icon/smartphone.svg" alt="cetegory" />
+                              </div>
+                              <h3 class="category__text">Computers</h3>
+                            </div>
+                            <!-- 2.2.Sub Category Menu -->
+                            <div class="category-menu">
+                              <ul>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Shop All Computers </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Laptops </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> PC Gaming </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Monitors </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Chromebook </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Printers & Ink </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                                <li>
+                                  <a href="#!" class="category-menu__link"> Computer Accessories </a>
+                                </li>
+                                <!-- 2.2.1.Sub Category Item -->
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                   <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Movies, Music & Books
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Clothing, Shoes & Accessories
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Home Improvement
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                     <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Toys & Video Games
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Baby
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Home, Furniture & Appliances
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Personal Care
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Patio & Garden
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Household Essentials
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+                   
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Auto, Tires and Industrial
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                     <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Sports & Outdoors
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+
+                    <!-- 2.2.2.Category Item -->
+                    <li>
+                      <a href="#!" class="category-menu__link">
+                        Gift Cards
+                        <img class="category-menu__expand-btn icon" src="./assets/img/arrow-down.svg" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div id="overlay" class="toggle" data-toggle-targets="#navbar" data-toggle-classes="nav--active"></div>
+
+    <!-- 1.3.Actions -->
+    <div class="header__acts d-md-none">
+      <!-- 1.3.1.Action group -->
+      <div class="act-group act-group--alone">
+        <div class="act-sub-group">
+          <button class="act-btn">
+            <span class="act-btn__icon">
+              <img class="icon" src="./assets/img/search.svg" alt="" />
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 1.3.1.Action group -->
+      <div class="act-group">
+        <div class="act-sub-group">
+          <button class="act-btn">
+            <span class="act-btn__icon">
+              <img class="icon" src="./assets/img/heart.svg" alt="search" />
+            </span>
+            <span class="act-btn__text">03</span>
+          </button>
+
+          <div class="header-dropdown">
+            <div class="header-dropdown__inner">
+              <div class="header-dropdown__arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="17" viewBox="0 0 23 17" fill="currentcolor">
+                  <path
+                    d="M9.45277 1.1122C10.253 0.0530214 11.8441 0.0530201 12.6443 1.1122L21.6591 13.0444C22.6545 14.362 21.7147 16.25 20.0633 16.25H2.03375C0.382421 16.25 -0.557459 14.362 0.437972 13.0444L9.45277 1.1122Z"
+                    fill="currentcolor" />
+                </svg>
+              </div>
+
+              <div class="header-dropdown__top">
+                <h2 class="header-dropdown__title">You have 3 item(s)</h2>
+                <a href="/favourite.html" class="header-dropdown__link">See all</a>
+              </div>
+
+              <div class="header-dropdown__body">
+                <div class="header-dropdown__group">
+                  <div class="row row-cols-3">
+                    <div class="col">
+                      <article class="cart-item-mini">
+                        <div class="cart-item-mini__media">
+                          <img src="./assets/img/product-cards/big-card-01.png" alt="" />
+                        </div>
+
+                        <div class="cart-item-mini__infor">
+                          <h4 class="cart-item-mini__title">Lavazza Coffee Blends</h4>
+                          <span class="cart-item-mini__price">$329.00</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <div class="col">
+                      <article class="cart-item-mini">
+                        <div class="cart-item-mini__media">
+                          <img src="./assets/img/product-cards/big-card-02.png" alt="" />
+                        </div>
+
+                        <div class="cart-item-mini__infor">
+                          <h4 class="cart-item-mini__title">Lavazza Coffee Blends</h4>
+                          <span class="cart-item-mini__price">$329.00</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <div class="col">
+                      <article class="cart-item-mini">
+                        <div class="cart-item-mini__media">
+                          <img src="./assets/img/product-cards/big-card-03.png" alt="" />
+                        </div>
+
+                        <div class="cart-item-mini__infor">
+                          <h4 class="cart-item-mini__title">Lavazza Coffee Blends</h4>
+                          <span class="cart-item-mini__price">$329.00</span>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="header-dropdown__footer">
+                <div class="header-dropdown__checkout">
+                  <a href="/favourite.html" class="pri-btn header-dropdown__checkout-btn">Check Out All</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <span class="act-group__saperator"></span>
+
+        <div class="act-sub-group">
+          <button class="act-btn">
+            <span class="act-btn__icon">
+              <img class="icon" src="./assets/img/cart.svg" alt="cart" />
+            </span>
+            <span class="act-btn__text">$65.42</span>
+          </button>
+
+          <div class="header-dropdown">
+            <div class="header-dropdown__inner">
+              <div class="header-dropdown__arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="17" viewBox="0 0 23 17" fill="currentcolor">
+                  <path
+                    d="M9.45277 1.1122C10.253 0.0530214 11.8441 0.0530201 12.6443 1.1122L21.6591 13.0444C22.6545 14.362 21.7147 16.25 20.0633 16.25H2.03375C0.382421 16.25 -0.557459 14.362 0.437972 13.0444L9.45277 1.1122Z"
+                    fill="currentcolor" />
+                </svg>
+              </div>
+              <div class="header-dropdown__top">
+                <h2 class="header-dropdown__title">You have 3 item</h2>
+                <a href="/checkout.html" class="header-dropdown__link">See all</a>
+              </div>
+
+              <div class="header-dropdown__body">
+                <div class="header-dropdown__group">
+                  <div class="row row-cols-3">
+                    <div class="col">
+                      <article class="cart-item-mini">
+                        <div class="cart-item-mini__media">
+                          <img src="./assets/img/product-cards/big-card-01.png" alt="" />
+                        </div>
+
+                        <div class="cart-item-mini__infor">
+                          <h4 class="cart-item-mini__title">Lavazza Coffee Blends</h4>
+                          <span class="cart-item-mini__price">$329.00</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <div class="col">
+                      <article class="cart-item-mini">
+                        <div class="cart-item-mini__media">
+                          <img src="./assets/img/product-cards/big-card-02.png" alt="" />
+                        </div>
+
+                        <div class="cart-item-mini__infor">
+                          <h4 class="cart-item-mini__title">Lavazza Coffee Blends</h4>
+                          <span class="cart-item-mini__price">$329.00</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <div class="col">
+                      <article class="cart-item-mini">
+                        <div class="cart-item-mini__media">
+                          <img src="./assets/img/product-cards/big-card-03.png" alt="" />
+                        </div>
+
+                        <div class="cart-item-mini__infor">
+                          <h4 class="cart-item-mini__title">Lavazza Coffee Blends</h4>
+                          <span class="cart-item-mini__price">$329.00</span>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="header-dropdown__group header-dropdown__group--border header-dropdown__group--column">
+                  <div class="header-dropdown__row">
+                    <span class="header-dropdown__group__label">Subtotal</span>
+                    <span class="header-dropdown__group__value">$415.99</span>
+                  </div>
+
+                  <div class="header-dropdown__row">
+                    <span class="header-dropdown__group__label">Texes</span>
+                    <span class="header-dropdown__group__value">Free</span>
+                  </div>
+
+                  <div class="header-dropdown__row">
+                    <span class="header-dropdown__group__label">Shipping</span>
+                    <span class="header-dropdown__group__value">$10.00</span>
+                  </div>
+
+                  <div class="header-dropdown__row">
+                    <span class="header-dropdown__group__label header-dropdown__group__label--bold">Total Price</span>
+                    <span class="header-dropdown__group__value header-dropdown__group__value--bold">$425.99</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="header-dropdown__footer">
+                <div class="header-dropdown__checkout">
+                  <a href="/checkout.html" class="pri-btn header-dropdown__checkout-btn">Check Out All</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1.4.User -->
+    <div class="header__user">
+      <div class="user__avatar">
+        <img src="./assets/img/avatar.jpg" alt="avatar" />
+      </div>
+    </div>
+  </div>
+</div>
